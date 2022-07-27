@@ -1,0 +1,211 @@
+body {
+    margin: 0;
+    padding: 0;
+    border: 0ch;
+    box-sizing: border-box;
+    color: black;
+
+}
+
+.logo {
+    border-radius: 70%;
+    background-color: grey;
+}
+
+#headerdiv p {
+    padding: 5px;
+}
+
+
+table,
+td {
+    border: 1px solid black;
+    height: 80vh;
+    width: 100%;
+    padding: 0%;
+    margin: 0%;
+    border-collapse: collapse;
+
+}
+
+td {
+    vertical-align: middle;
+}
+
+#headerdiv {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+
+
+}
+
+.Btd {
+    text-align: center;
+}
+
+.Atd {
+    width: 20%;
+}
+
+.fifthp {
+    margin-left: 60%;
+}
+
+#grid {
+    display: grid;
+    grid-template-areas:
+        "A A"
+        "B C"
+        "D E"
+        "F G"
+        "H I"
+        "J K"
+        "L L"
+        "M M"
+        "N N"
+        "O O"
+    ;
+    height: 80vh;
+    padding: 5px;
+    column-gap: 10px;
+    row-gap: 10px;
+}
+
+.A {
+    margin: 0%;
+    padding: 0%;
+    border: 1px solid black;
+    padding: 2px;
+    grid-area: A;
+}
+
+.B {
+    margin: 0%;
+    padding: 0%;
+    border: 1px solid black;
+    padding: 2px;
+    grid-area: B;
+}
+
+.C {
+    margin: 0%;
+    padding: 0%;
+    border: 1px solid black;
+    padding: 2PX;
+    grid-area: C;
+}
+
+.D {
+    margin: 0%;
+    padding: 0%;
+    border: 1px solid black;
+    padding: 2px;
+    grid-area: D;
+}
+
+.E {
+    margin: 0%;
+    padding: 0%;
+    border: 1px solid black;
+    padding: 2px;
+    grid-area: E;
+}
+
+.F {
+    margin: 0%;
+    padding: 0%;
+    border: 1px solid black;
+    padding: 2px;
+    grid-area: F;
+}
+
+.G {
+    margin: 0%;
+    padding: 0%;
+    border: 1px solid black;
+    padding: 2px;
+    grid-area: G;
+}
+
+.H {
+    margin: 0%;
+    padding: 0%;
+    border: 1px solid black;
+    padding: 2px;
+    grid-area: H;
+}
+
+.I {
+    margin: 0%;
+    padding: 0%;
+    border: 1px solid black;
+    padding: 2px;
+    grid-area: I;
+}
+
+.J {
+    margin: 0%;
+    padding: 0%;
+    border: 1px solid black;
+    padding: 2px;
+    grid-area: J;
+}
+
+.K {
+    margin: 0%;
+    padding: 0%;
+    border: 1px solid black;
+    padding: 2px;
+    grid-area: K;
+}
+
+.L {
+    margin: 0%;
+    padding: 0%;
+    padding: 2px;
+    grid-area: L;
+}
+
+.M {
+    margin: 0%;
+    padding: 0%;
+    border: 1px solid black;
+    padding: 2px;
+    grid-area: M;
+}
+
+.N {
+    margin: 0%;
+    padding: 0%;
+    border: 1px solid black;
+    padding: 2px;
+    grid-area: N;
+}
+
+.N {
+    margin: 0%;
+    padding: 0%;
+    border: 1px solid black;
+    padding: 2px;
+    grid-area: N;
+}
+
+.O {
+    margin: 0%;
+    padding: 0%;
+    padding: 2px;
+    grid-area: O;
+}
+
+footer {
+    margin: 0%;
+    padding: 0%;
+    border: 0;
+    height: 5vh;
+    text-align: center;
+}
+
+div {
+    text-align: center;
+}
