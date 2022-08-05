@@ -346,7 +346,9 @@ span {
 main {
     margin-left: 10%;
 }
-
+label{
+    margin-top: 5px;
+}
 input {
     border-radius: 5px;
     border-style: none;
